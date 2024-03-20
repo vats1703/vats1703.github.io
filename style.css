@@ -23,7 +23,7 @@ body {
 }
 
 a, .navbar-brand, .navbar-nav .nav-link {
-    color: #FFFFFF !important; /* Amber: Adds vibrancy and highlights interactive elements */
+    color: #ffffff !important; /* Amber: Adds vibrancy and highlights interactive elements */
     font-size: 1.5rem; /* Increase font size */
     line-height: 1.5; /* Increase line height */
     padding-top: 0.5rem; /* Adjust top padding */
@@ -56,8 +56,26 @@ section {
 .black-text {
     color: black;
   }
-.carousel {
+/*.carousel {
     border-radius: 55px 55px 55px 55px;
+} */
+
+.carousel {
+    max-width: 90%;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 55px;
+    position: relative;
+    width: 100%;
+    padding-top: 45%; /* 16:9 Aspect Ratio */
+}
+
+.carousel-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
 
 .img-format1 {
@@ -163,20 +181,6 @@ footer {
     position: relative; /* Ensure the tooltip can be positioned relative to the progress bar */
 }
 
-.tooltiptext {
-    width: 70px;
-/* Light background for the tooltip */
-    color: #000000; /* Black text color */
-    text-align: center;
-    position: absolute;
-    top: -2px;
-    left: 1%;
-    border-radius: 6px;
-
-
-    /* Positioning */
-
-}
 
 
 .progress-4 .progress-bar {
@@ -192,4 +196,19 @@ footer {
 /* R - Red for novice */
 .progress-2 .progress-bar {
     background-color: #2196F3 ; /* Red */
+}
+
+.tooltiptext {
+    width: 70px;
+/* Light background for the tooltip */
+    color: #000000; /* Black text color */
+    text-align: center;
+    position: absolute;
+    top: -2px;
+    left: 1%;
+    border-radius: 6px;
+
+
+    /* Positioning */
+
 }
