@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700|Open+Sans:400,700|Lato:400,700|Montserrat:400,700|Source+Sans+Pro:400,700|Noto+Sans:400,700&display=swap');
+
+
+body {
+    background-color: rgb(33, 33, 33);
+    color: rgb(255, 255, 255); 
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: rgb(205, 201, 197) !important ;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.navbar-brand{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Monserrat', Helvetica;
+
+}
+
+.nav-link {
+    color: #ffffff !important;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Other styles remain the same */
+.black-text {
+    color: black;
+  }
+.carousel {
+    border-radius: 55px 55px 55px 55px;
+}
+
+.img-format1 {
+    border-radius: 10px 10px 10px 10px;
+}
+
+.img {
+    padding-top: 20px
+}
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+}
+
+.carousel-control-prev-icon {
+    color: blue; /* Change this to your desired color */
+}
+
+.carousel-control-next-icon {
+    color: blue; /* Change this to your desired color */
+}
+
+#bio {
+    background-color: #f5f5f5cf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bio-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+/* Other styles remain the same */
+
+
+#bio h1 {
+    align-self: flex-start;
+}
+
+#bio p {
+    font-size: 0.95em;
+}
+
+#projects {
+    background-color: #f5f5f5cf;
+}
+
+#skills {
+    background-color: #f5f5f5cf;
+}
+#publications {
+    background-color: #f5f5f5cf;
+}
+footer {
+    background-color: #e9ecef;
+    text-align: center;
+}
+
+#email {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.card {
+    text-align: center;
+    background-color: rgb(33, 33, 33);
+}
+
+.card-title {
+    font-size: 1rem; /* Adjust the font size as needed */
+}
+/* Custom Button Style */
+.custom-btn {
+    background-color: #2a2a2a; /* Dark gray color, slightly lighter than the background */
+    color: #ffffff; /* Text color */
+    border-color: #2a2a2a; /* Border color */
+  }
+  
+  .custom-btn:hover {
+    background-color: #404040; /* Slightly darker on hover for contrast */
+    border-color: #404040; /* Hover border color */
+  }
+  
