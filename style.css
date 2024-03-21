@@ -64,7 +64,7 @@ section {
     max-width: 90%;
     margin: auto;
     overflow: hidden;
-    border-radius: 55px;
+    border-radius: 10px;
     position: relative;
     width: 100%;
     padding-top: 45%; /* 16:9 Aspect Ratio */
