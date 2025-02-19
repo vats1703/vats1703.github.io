@@ -1,0 +1,28 @@
+site_name: Victor Torres – Data Scientist
+site_url: https://yourusername.github.io/your-repo/
+repo_url: https://github.com/yourusername/your-repo
+theme:
+  name: terminal
+  palette: gruvbox_dark
+nav:
+  - Home: index.md
+
+
+# site_name: Victor Torres – Data Scientist
+# site_url: https://yourusername.github.io/your-repo/
+# repo_url: https://github.com/yourusername/your-repo
+# theme:
+#   name: terminal
+#   palette: gruvbox_dark
+
+# features:
+#   - navigation.side.indexes
+#   - navigation.top
+# nav:
+#   - Home: 'index.md'
+# extra:
+#   social:
+#     - icon: fontawesome/brands/github
+#       link: https://github.com/yourusername
+#     - icon: fontawesome/brands/linkedin
+#       link: https://linkedin.com/in/yourusername
